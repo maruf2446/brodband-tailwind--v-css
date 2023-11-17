@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700;800&family=Poppins:wght@300;400;500&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+* {
+  max-width: 1280px;
+  margin: auto;
+  padding: auto;
+  font-family: Space Grotesk;
+  box-sizing: border-box;
+}
+
+
+.nav button {
+  background: linear-gradient(57deg, #40DB5C 0%, #03C7FD 50%, #40DB5C 100%);
+}
+
+.hero {
+  background-image: url(./img/section_before.png);
+  position: relative;
+  width: 1400px;
+  height: 900px;
+  background-size: cover;
+  display: grid;
+  justify-items: center;
+}
+
+#text {
+  background-color: black;
+  width: 100%;
+  padding: 140px 60px;
+  padding-top: 40px;
+  text-align: center;
+  position: absolute;
+  margin-top: -324px;
+}
+
+#text h2 {
+  color: #FFF;
+  font-size: 39px;
+  font-family: Space Grotesk;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 48px;
+}
+
+#text p {
+  color: #FFF;
+  font-family: Space Grotesk;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+#productiv {
+  font-family: Space Grotesk;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 11px;
+  letter-spacing: 1.2px;
+}
+
+#connectiv h1 {
+  color: #000;
+  font-family: Space Grotesk;
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 31.5px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+#connectiv p {
+  color: #5D5D5D;
+  font-family: Space Grotesk;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27.2px;
+}
+
+#connectiv button {
+  border-radius: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.20);
+  padding: 16px 56.938px 17.188px 58.063px;
+  background: #000;
+  color: #FFF;
+
+  text-align: center;
+  font-family: Space Grotesk;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27.2px;
+  /* 226.667% */
+  letter-spacing: 1.3px;
+  text-transform: uppercase;
+}
+
+#network h2 {
+  color: #000;
+  font-family: Space Grotesk;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 31.5px;
+  /* 105% */
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+#network p {
+  width: 400px;
+  height: 1px;
+  background-color: gray;
+}
+
+
+#Designed {
+  padding: 280px;
+}
+
+#Designed p {
+  font-family: Space Grotesk;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 11px;
+  /* 100% */
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+#Designed h1 {
+  font-family: Space Grotesk;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 48px;
+  /* 126.316% */
+}
+
+#Designed h2 {
+  font-family: Space Grotesk;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+#Designed button {
+  background: linear-gradient(57deg, #40DB5C 0%, #03C7FD 50%, #40DB5C 100%);
+  font-family: Space Grotesk;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27.2px;
+  letter-spacing: 1.3px;
+  text-transform: uppercase;
+  border-radius: 50px;
+  padding: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.Navigat p {
+  color: #000;
+  font-family: Space Grotesk;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 11px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+.Navigat h1 {
+  color: #000;
+  font-family: Space Grotesk;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 43.2px;
+}
+
+.Navigat button {
+  background-color: #000;
+  color: #FFF;
+  text-align: center;
+  font-family: Space Grotesk;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27.2px;
+  letter-spacing: 1.3px;
+  text-transform: uppercase;
+  border-radius: 50px;
+  padding: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.Tusted {
+  color: #262831;
+  text-align: center;
+  font-family: Space Grotesk;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 13.75px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+.Hood {
+  background-image: url(./img/hood.png);
+  width: full;
+  height: 810px;
+}
+
+.Hood {
+  color: #FFF;
+  font-family: Space Grotesk;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 11px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+.Hood h1 {
+  color: #FFF;
+  text-align: center;
+  font-family: Space Grotesk;
+  font-size: 89px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 90px;
+  letter-spacing: -2px;
+  text-transform: uppercase;
+}
+
+.Hood h2 {
+  color: #FFF;
+  text-align: center;
+  font-family: Space Grotesk;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27.2px;
+  text-transform: none;
+}
+
+.Hood button {
+  background: #FFF;
+  color: #000;
+  text-align: center;
+  font-family: Space Grotesk;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27.2px;
+  letter-spacing: 1.3px;
+  text-transform: uppercase;
+  border-radius: 50px;
+  padding: 5px;
+  padding-right: 35px;
+  padding-left: 35px;
+
+}
+
+.Put img {
+  background: white;
+  width: 10px;
+  height: 10px;
+}
+
+.Put p {
+  font-family: Space Grotesk;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 11px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+.Put h3 {
+  color: #828282;
+  font-family: Space Grotesk;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27.2px;
+}
+
+.Put button {
+  background: #FFF;
+  color: #000;
+  text-align: center;
+  font-family: Space Grotesk;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27.2px;
+  letter-spacing: 1.3px;
+  text-transform: uppercase;
+  border-radius: 50px;
+  padding: 5px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.Footr{
+  font-family: Space Grotesk;
+}
+.Footr button{
+  background: linear-gradient(57deg, #40DB5C 0%, #03C7FD 50%, #40DB5C 100%);
+  text-align: center;
+  font-family: Space Grotesk;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27.2px;
+  letter-spacing: 1.3px;
+  text-transform: uppercase;
+  border-radius: 50px;
+  padding: 5px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
