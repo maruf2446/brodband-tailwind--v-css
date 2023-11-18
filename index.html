@@ -15,25 +15,26 @@
   <header>
     <!-- Navbar start -->
 
-    <section class="bg-black p-5 shadow  flex items-center justify-between w-[1400px]">
+    <section class="bg-black p-5 shadow  flex items-center justify-between space-x-5">
       <div class="flex justify-between items-center">
         <span>
           <img class="cursor-pointer w-[145px] h-[32]" src="./img/nav.png" alt="">
         </span>
       </div>
-      <nav>
+      <nav class="flex items-center justify-between space-x-10">
         <ul
           class="nav flex items-center text-white uppercase font-[Grotesk] text-[11px] font-bold leading-[13px] tracking-[1.3px] space-x-4">
-          <li class="mx-4 my-6 md:my-0"><a href="#">solutions</a></li>
-          <li class="mx-4 my-6 md:my-0"><a href="#">zero-loss failover</a></li>
-          <li class="mx-4 my-6 md:my-0"><a href="#">multi-tenant</a></li>
-          <li class="mx-4 my-6 md:my-0"><a href="#">enterprise nni</a></li>
-          <li class="mx-4 my-6 md:my-0"><a href="#">learn</a></li>
-          <li class="mx-4 my-6 md:my-0"><a href="#">support</a></li>
+          <li class><a href="#">solutions</a></li>
+          <li class><a href="#">zero-loss failover</a></li>
+          <li class><a href="#">multi-tenant</a></li>
+          <li class><a href="#">enterprise nni</a></li>
+          <li class><a href="#">learn</a></li>
+          <li class><a href="#">support</a></li>
           <button
             class=" p-[10px] px-5 rounded-[50px] font-[Grotesk] text-[12px] uppercase leading-7 tracking-[1.3px]">make
             an enquiry</button>
         </ul>
+        <span><img class="w-[30px] h-[20px]" src="./img/nav2.svg" alt=""></span>
       </nav>
     </section>
 
@@ -211,9 +212,9 @@
             your business communications
             <span class="font-bold"> with unrivalled speed?</span>
           </h2>
-         <div class="mt-6">
-          <button>get in touch</button>
-         </div>
+          <div class="mt-6">
+            <button>get in touch</button>
+          </div>
         </div>
 
         <div class="grid grid-cols-2 space-x-14">
@@ -251,26 +252,6 @@
   <!-- Footer end -->
 
 
-
-
-
-
-
-
-
-
-
-  <script>
-    function Menu(e) {
-      let list = document.querySelector('ul');
-
-      e.name === 'menu' ? (e.name = "close", list.classList.
-        add('top-[80px]'), list.classList.
-          add('opacity-100')) : (e.name = "menu", list.classList.
-            remove('top-[80px]'), list.classList.
-              remove('opacity-100'))
-    }
-  </script>
 </body>
 
 </html>
