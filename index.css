@@ -24,19 +24,28 @@
 }
 
 #text {
-  background-color: black;
   width: 100%;
-  padding: 140px 60px;
-  padding-top: 40px;
+  /* padding: 140px 60px; */
+  padding-top: 15px;
+  padding-bottom: 117px;
   text-align: center;
   position: absolute;
-  margin-top: -324px;
+  margin-top: -300px;
 }
 
 #text h2 {
   color: #FFF;
   font-size: 39px;
   font-family: Space Grotesk;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 48px;
+}
+
+#into {
+  text-align: center;
+  font-family: Space Grotesk;
+  font-size: 39px;
   font-style: normal;
   font-weight: 300;
   line-height: 48px;
@@ -118,7 +127,7 @@
 
 
 #Designed {
-  padding: 280px;
+  padding: 220px;
 }
 
 #Designed p {
@@ -181,7 +190,7 @@
   font-size: 36px;
   font-style: normal;
   font-weight: 300;
-  line-height: 43.2px;
+  line-height: 42.2px;
 }
 
 .Navigat button {
@@ -217,6 +226,7 @@
   background-image: url(./img/hood.png);
   width: full;
   height: 810px;
+  object-fit: cover;
 }
 
 .Hood {
@@ -313,10 +323,11 @@
   padding-left: 30px;
 }
 
-.Footr{
+.Footr {
   font-family: Space Grotesk;
 }
-.Footr button{
+
+.Footr button {
   background: linear-gradient(57deg, #40DB5C 0%, #03C7FD 50%, #40DB5C 100%);
   text-align: center;
   font-family: Space Grotesk;
